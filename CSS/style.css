@@ -1,0 +1,131 @@
+:root{
+    --Primary: #141B34;
+    --Secondary: #50B5EE;
+
+}
+body{
+    margin: 0;
+    background-color: #141B34;
+}
+.topNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+
+nav a:hover{
+    color:#1717aa;
+}
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 261px 18px 261px;
+    background-color: #141B34;
+
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter:brightness(100%);
+}
+.caseStudyHeader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 261px 18px 261px;
+    background-color: #141B34;
+}
+.caseStudyGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 261px 18px 261px;
+}
+.caseStudyimg{
+    float: left;
+
+}
+/*.hero{
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/images/heroImg_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter:brightness(80%);
+
+}
+.hero-content {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin-right: 1000px;
+}
+
+.heroTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    
+}
+
+
+.button {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}*/
+/*.logo {
+    width:23%;
+    padding:1%;
+    text-align: center;
+}
+
+ul {
+    width:50%;
+    margin-left:auto;
+    display:inline-block;
+    vertical-align: top;
+
+
+} */
