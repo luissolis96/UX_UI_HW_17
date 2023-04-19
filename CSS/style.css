@@ -1,21 +1,39 @@
-:root{
-    --Primary: #141B34;
-    --Secondary: #50B5EE;
+@import url(./variable.css);
 
-}
 body{
     margin: 0;
     background-color: #141B34;
+    font-family: var(--bodyFont);
+
+}
+.bg-img{
+    background-image: url("../images/Vector.png");
+    min-height: 897px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+
 }
 .topNav{
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    
+    background-color: #333;
+
 }
 
 nav a{
+    text-align: center;
+    font-size: 17px;
     text-decoration: none;
     color:rgb(255, 255, 255);
     padding: 10px;
@@ -28,25 +46,13 @@ nav a:hover{
 .hero{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 18px 261px 18px 261px;
     background-color: #141B34;
 
 }
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(/images/Vector.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter:brightness(100%);
-}
+
 .caseStudyHeader{
     position: relative;
     display: flex;
@@ -54,6 +60,7 @@ nav a:hover{
     align-items: center;
     padding: 18px 261px 18px 261px;
     background-color: #141B34;
+
 }
 .caseStudyGrid{
     display: flex;
@@ -64,6 +71,11 @@ nav a:hover{
 .caseStudyimg{
     float: left;
 
+}
+.caseStudyContent{
+    width: 448px;
+    height: 420px;
+    padding: 20px;
 }
 /*.hero{
     position: relative;

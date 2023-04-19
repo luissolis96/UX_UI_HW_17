@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap');
+
+:root{
+    --Primary: #141B34;
+    --Secondary: #50B5EE;
+    --WhiteText: white;
+    --BlackText: black;
+
+
+    --bodyFont: 'Overpass', sans-serif;
+    --headlineFont: 'Overpass', sans-serif;
+    --subheadFont: 'Overpass', sans-serif;
+    
+
+}
